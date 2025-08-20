@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express();
-const port = 3005;
+const port = 5500;
 
 const APIkey = "AIzaSyAi83mZGrJbG6vbFsv7RyLatRkuVgrPlpA"
 const placeID = "ChIJkx0kYi0bdkgRaDAVgjFnuU4"
