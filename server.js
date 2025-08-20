@@ -28,11 +28,11 @@ app.get("/reviews", async (req, res) => {
         res.status(500).json({ error: "Failed to fetch reviews" })
     }
 })
+app.use(express.static("src"));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "src/main.html"))
 })
 
-app.use(express.static("src"));
 
 app.listen(port, () => console.log(`Server running on htttp://localhost:${port}`))

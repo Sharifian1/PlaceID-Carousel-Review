@@ -1,4 +1,41 @@
-.carousel-container{
-    flex:flexbox;
-    background-color: blue;
+.carousel-container {
+    flex:flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.reviews-wrapper {
+    display: grid;
+    gap: 1rem;
+    flex: 1;
+}
+
+.review-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0.5rem
+}
+
+@media (max-width: 768px) {
+    .reviews-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) {
+    .reviews-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
