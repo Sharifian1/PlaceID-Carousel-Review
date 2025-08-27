@@ -9,8 +9,8 @@ const __dirname = path.dirname(__filename)
 const app = express();
 const port = 5500;
 
-const APIkey = "AIzaSyAi83mZGrJbG6vbFsv7RyLatRkuVgrPlpA"
-const placeID = "ChIJkx0kYi0bdkgRaDAVgjFnuU4"
+const APIkey = "yourKey"
+const placeID = "theID"
 
 app.get("/reviews", async (req, res) => {
     try{
