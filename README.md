@@ -24,7 +24,7 @@ A responsive, dynamic carousel that fetches real Google Reviews using the **Goog
 
 ## Preview  
 
-
+![Carousel Demo](assets/carousel.png)
 
 ---
 
