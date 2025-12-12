@@ -36,7 +36,7 @@ Clone the repo:
 
 ```bash
 git clone https://github.com/Sharifian1/PlaceID-Carousel-Review.git
-cd reviews-carousel
+cd PlaceID-Carousel-Review
 ```
 
 Install dependencies:
