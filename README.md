@@ -22,12 +22,6 @@ A responsive, dynamic carousel that fetches real Google Reviews using the **Goog
 
 ---
 
-## Preview  
-
-![Carousel Demo](assets/carousel.png)
-
----
-
 ## Tech Stack  
 
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript  
@@ -41,7 +35,7 @@ A responsive, dynamic carousel that fetches real Google Reviews using the **Goog
 Clone the repo:  
 
 ```bash
-git clone https://github.com/your-username/reviews-carousel.git
+git clone https://github.com/Sharifian1/PlaceID-Carousel-Review.git
 cd reviews-carousel
 ```
 
